@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0",
+'numpy',
+'matplotlib',
+'pandas',
+'scipy',
+'tdqm',]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "DENFIS"
+version = "0.0.1"
+authors = [
+  { name="Manish Kakar", email="manish_kakar@hotmail.com" },
+]
+description = "DENFIS is a package for adaptive online and offline learning for dynamic time series prediction by using for dynamic evolving neural-fuzzy inference system (DENFIS)"
+readme = "README.md"
+license = { file="LICENSE.txt" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = 'https://github.com/ml-kl-23/DENFIS-PYTHON'
